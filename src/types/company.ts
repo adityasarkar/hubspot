@@ -12,7 +12,8 @@ interface Properties {
   domain: string;
   hs_lastmodifieddate: string;
   description: string;
-  industry: string;
+  industry: string;  
+  [key: string]: string | undefined;
 }
 
 export interface Data {
